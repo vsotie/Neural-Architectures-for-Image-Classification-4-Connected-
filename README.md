@@ -1,7 +1,7 @@
 # Neural-Architectures-for-Image-Classification
 # Counting Connected Components with CNNs & MLPs
 
-[![Open In Colab](https://colab.research.google.com/drive/1PNNEF7W6Iszb6tj9_a5N2QOQqdl889G5?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]https://colab.research.google.com/drive/1PNNEF7W6Iszb6tj9_a5N2QOQqdl889G5?usp=sharing)
 
 ## Overview
 Synthetic dataset of 32×32 binary images (1–3 shapes). Compared MLP, 2‑layer CNN, and 3‑layer CNN with batch norm. Best model: 92.9% test accuracy. Under a distribution shift (scaling, squiggles, noise, occlusions), the deep CNN dropped to 60%. Regularisation (dropout 0.6 + weight decay) recovered 69.3% shifted accuracy.
